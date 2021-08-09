@@ -400,7 +400,7 @@ a {
 
 
 /*////////////////////////RESPONSIVE////////////////////////////////////////////////*/
-@media screen and (max-width: 1080px) {
+@media screen and (max-width: 640px) {
     .nav-menu {
         position: fixed;
         left: -100%;
