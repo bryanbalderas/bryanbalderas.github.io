@@ -397,7 +397,10 @@ a {
     font-size: 30px;
 }
 
+.marcoWeb{
+    margin-left: 20%;
 
+}
 
 /*////////////////////////RESPONSIVE////////////////////////////////////////////////*/
 @media screen and (max-width: 1080px) {
