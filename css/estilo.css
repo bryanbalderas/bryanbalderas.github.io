@@ -470,6 +470,11 @@ a {
     .footer-right{
         flex: 2 0px;
     }
+    
+    .marcoWeb{
+        width: 300px;
+        height: fit-content;
+    }
 
 }
 
