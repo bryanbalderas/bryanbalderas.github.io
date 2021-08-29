@@ -405,6 +405,10 @@ a {
 
 /*////////////////////////RESPONSIVE////////////////////////////////////////////////*/
 @media screen and (max-width: 1080px) {
+
+    .html {
+        zoom:.8;
+     }
     .nav-menu {
         position: fixed;
         left: -100%;
