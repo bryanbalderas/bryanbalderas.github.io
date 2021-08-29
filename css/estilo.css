@@ -132,6 +132,7 @@ a {
 .row{
     float: left;
     display: flex;
+    margin-left: 20%;
 }
 
 .rutas{
@@ -199,7 +200,7 @@ a {
     align-items: center;
     flex-wrap: wrap;
     padding: 30px;
-    margin-left:8%;
+    margin-left:20%;
 }
 
 .container .card{
