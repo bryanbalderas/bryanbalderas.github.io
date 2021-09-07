@@ -132,7 +132,7 @@ a {
 .row{
     float: left;
     display: flex;
-    margin-left: 20%;
+    margin-left: 12%;
 }
 
 .rutas{
@@ -459,7 +459,7 @@ a {
 
     .row{
         display:block;
-        margin-left: 20%;
+        margin-left: 12%;
     }
 
     .container{
