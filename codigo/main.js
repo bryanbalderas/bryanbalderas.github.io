@@ -20,6 +20,27 @@ function mobileMenu() {
     navMenu.classList.toggle("active");
 }
 
+function validateForm(){
+  var d3=document.getElementById("msg").value;
+  var d2=document.getElementById("fromName").value;
+  var d1=document.getElementById("toName").value;
+
+  if(d3=="" || !d3){
+    alert("El mensaje no puede estar vacio")
+    return false
+  }
+
+  if(d2=="" || !d2){
+    alert("El correo no puede estar vacio")
+    return false
+  }
+
+  if(d1=="" || !d1){
+    alert("El nombre no puede estar vacio")
+    return false
+  }
+
+}
 
 function closeMenu() {
     hamburger.classList.remove("active");
@@ -40,6 +61,12 @@ function sendMail(params){
     to_name:document.getElementById("toName").value,
     message:document.getElementById("msg").value,
   };
+
+  var validar=validateForm();
+
+  if(validar==false){
+    return false
+  }
 
   emailjs.send('service_j62ce7h','template_kjvapv4',tempParams).then(function(res){
     console.log("success",res.status);
