@@ -43,5 +43,6 @@ function sendMail(params){
 
   emailjs.send('service_j62ce7h','template_kjvapv4',tempParams).then(function(res){
     console.log("success",res.status);
+    alert("Formulario Enviado");
   })
 }
