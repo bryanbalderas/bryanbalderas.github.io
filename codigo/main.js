@@ -40,6 +40,11 @@ function validateForm(){
     return false
   }
 
+  if(!d2.includes("@")){
+    alert("El formato del correo electronico no es correcto");
+    return false;
+  }
+
 }
 
 function closeMenu() {
