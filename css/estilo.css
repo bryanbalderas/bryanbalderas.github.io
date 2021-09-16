@@ -199,7 +199,7 @@ a {
     align-items: center;
     flex-wrap: wrap;
     padding: 30px;
-    margin-left:20%;
+    margin-left:8%;
 }
 
 .container .card{
@@ -463,7 +463,7 @@ a {
 
     .container{
         width: 500px;
-        margin-left: 20%;
+        margin-left: 8%;
     }
 
     .footer-right>*{
